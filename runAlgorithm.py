@@ -171,11 +171,5 @@ for j in range(11):
         os.remove(
             "E:/pythonProject/scrCovid/data/results/" + testedCluster + "out0.csv")  # remove the temp file once finish the update
 
-        # results.to_csv("E:/pythonProject/scrCovid/data/results/out%s.csv" % i)
-
-        # print(results.describe())
-        # # plot results
-        # results.boxplot()
-        # pyplot.show()
 
 
